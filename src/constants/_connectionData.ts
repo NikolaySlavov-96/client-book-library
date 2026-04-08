@@ -1,1 +1,1 @@
-export const HOST = 'http://localhost:3030';
+export const HOST = process.env.HOST ?? 'http://localhost:3030';
