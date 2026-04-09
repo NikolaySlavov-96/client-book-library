@@ -4,7 +4,7 @@ FROM node:22-alpine AS builder
 WORKDIR /app
 
 ARG HOST
-ENV HOST=$HOST
+ENV VITE_API_URL=$HOST
 
 COPY package*.json ./
 RUN npm ci

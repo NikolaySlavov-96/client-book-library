@@ -1,1 +1,1 @@
-export const HOST = process.env.HOST ?? 'http://localhost:3030';
+export const HOST = process.env.VITE_API_URL ?? 'http://localhost:3030';
